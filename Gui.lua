@@ -326,6 +326,7 @@ end
 -- Button 4 Code (Edit inside the function)
 local function button4Code()
     -- PASTE YOUR CODE HERE
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-FREAKY-FLING/main/kawaii_freaky_fling.lua",true))()
     print("Button 4 executed!")
 end
 
@@ -356,7 +357,7 @@ local buttons = {
     {name = "Ez Hax", func = button1Code},
     {name = "Noclip", func = button2Code},
     {name = "Trigger Bot", func = button3Code},
-    {name = "NA", func = button4Code},
+    {name = "fling all", func = button4Code},
     {name = "NA", func = button5Code}
 }
 
